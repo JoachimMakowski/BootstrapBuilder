@@ -1,0 +1,11 @@
+{
+  "title":"tytuł",
+  "header": "głowa",
+  "paragraph": "paragraf",
+  "nav": {
+    "links": [
+      {"name": "nazwa", "url": "url"},
+      {"name": "nazwa2", "url": "url"}
+    ]
+  }
+}
