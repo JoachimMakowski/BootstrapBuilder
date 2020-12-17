@@ -7,19 +7,17 @@ import java.util.Map;
 import java.util.UUID;
 
 public class DataBase implements PagesRepo{
-    Map<String, PageData> db = new HashMap<>();
+    private Map<String, PageData> db = new HashMap<>();
 
     @Override
     public PageData getPageData(String uuid) {
-        if (db.containsKey(uuid)) {
-            return db.get(uuid);
-        }else return null;
+        return db.get(uuid);
     }
 
     @Override
     public String savePageData(PageData pageData) {
         String uuid = UUID.randomUUID().toString();
-        db.put(uuid,pageData);
+        db.put(uuid, pageData);
         return uuid;
     }
 

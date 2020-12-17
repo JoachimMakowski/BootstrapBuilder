@@ -6,4 +6,9 @@ import lombok.Data;
 public class Link {
     String name;
     String url;
+
+    @Override
+    public String toString(){
+        return String.format("<a href=%s </a>", this.url);
+    }
 }

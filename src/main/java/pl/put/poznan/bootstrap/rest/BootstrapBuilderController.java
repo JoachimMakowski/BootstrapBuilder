@@ -10,7 +10,7 @@ import pl.put.poznan.bootstrap.dto.PageData;
 import pl.put.poznan.bootstrap.logic.BootstrapBuilder;
 
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/pages")
@@ -28,14 +28,13 @@ public class BootstrapBuilderController {
         //return page
         // log the parameters
         logger.debug(uuid);
-        logger.debug(Arrays.toString(transforms));
         // perform the transformation, you should run your logic here, below is just a silly example
         BootstrapBuilder bootstrapBuilder;
         PageData pageData = dataBase.getPageData(uuid);
         if(pageData!=null){
             bootstrapBuilder = new BootstrapBuilder(pageData);
             return bootstrapBuilder.toHTML();
-        }else System.out.println("Nie ma w bazie danych strony z uuid:"+uuid);
+        }else logger.debug("Nie ma w bazie danych strony z uuid:"+uuid);
 
         // perform the transformation, you should run your logic here, below is just a silly example
         return null;
@@ -51,6 +50,8 @@ public class BootstrapBuilderController {
             System.out.println(pageData.getTitle());
             System.out.println(pageData.getNav().getLinks().get(0).getName());
             String uuid = dataBase.savePageData(pageData);
+            System.out.println(uuid);
+            return objectMapper.writeValueAsString(Map.of("uuid",uuid));
         } catch (IOException e) {
             e.printStackTrace();
         }

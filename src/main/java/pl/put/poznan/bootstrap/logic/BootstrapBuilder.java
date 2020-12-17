@@ -18,6 +18,8 @@ public class BootstrapBuilder {
         return text.toUpperCase();
     }
     public String toHTML(){
+        String nav = pageData.getNav().toString();
+        System.out.println(nav);
         return "HTML String";
     }
 }
