@@ -2,6 +2,8 @@ package pl.put.poznan.bootstrap.logic;
 
 import pl.put.poznan.bootstrap.dto.PageData;
 
+import java.sql.SQLOutput;
+
 /**
  * This is just an example to show that the logic should be outside the REST service.
  */
@@ -20,6 +22,7 @@ public class BootstrapBuilder {
     public String toHTML(){
         String nav = pageData.getNav().toString();
         System.out.println(nav);
+        System.out.println(pageData.getHead().toString());
         return "HTML String";
     }
 }
