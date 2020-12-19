@@ -9,6 +9,6 @@ public class Link {
 
     @Override
     public String toString(){
-        return String.format("<a href=%s </a>", this.url);
+        return String.format("<a href=\"%s\" name=\"%s\" </a>", this.url, this.name);
     }
 }

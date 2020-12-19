@@ -1,3 +1,10 @@
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/app/TextTransformerApplication.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/logic/TextTransformer.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\PageData.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\db\DataBase.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Head.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Link.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\app\BootstrapBuilderApplication.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\rest\BootstrapBuilderController.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\db\PagesRepo.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Nav.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\logic\BootstrapBuilder.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Meta.java
