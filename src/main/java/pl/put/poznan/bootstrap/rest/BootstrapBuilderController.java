@@ -47,7 +47,7 @@ public class BootstrapBuilderController {
         PageData pageData;
         try {
             pageData = objectMapper.readValue(pageDataJson, PageData.class);
-            System.out.println(pageData.getTitle());
+            System.out.println(pageData.getHead().getTitle());
             System.out.println(pageData.getNav().getLinks().get(0).getName());
             String uuid = dataBase.savePageData(pageData);
             System.out.println(uuid);
