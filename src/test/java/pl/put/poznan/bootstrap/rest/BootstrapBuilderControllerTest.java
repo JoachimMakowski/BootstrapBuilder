@@ -8,7 +8,6 @@ class BootstrapBuilderControllerTest {
         BootstrapBuilderController bootstrapBuilderController = new BootstrapBuilderController();
 
         String json = "{\n" +
-                "  \"title\":\"tytuł\",\n" +
                 "  \"header\": \"głowa\",\n" +
                 "  \"paragraph\": \"paragraf\",\n" +
                 "  \"nav\": {\n" +
@@ -16,6 +15,9 @@ class BootstrapBuilderControllerTest {
                 "      {\"name\": \"nazwa\", \"url\": \"url\"},\n" +
                 "      {\"name\": \"nazwa2\", \"url\": \"url\"}\n" +
                 "    ]\n" +
+                "  }\n" +
+                "  \"head\": {\n" +
+                "    \"title\": \"tytuł\"\n" +
                 "  }\n" +
                 "}";
         bootstrapBuilderController.post(json);
