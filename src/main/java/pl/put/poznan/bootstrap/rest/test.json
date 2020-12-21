@@ -19,5 +19,10 @@
     "twitter_tags": [
       {"name": "twitter:title", "content": "Twitter title"}
     ]
+  },
+  "body": {
+    "navBar": "Nawigacja",
+    "buttonOne": "Guzik",
+    "pageText": "bottom text"
   }
 }
