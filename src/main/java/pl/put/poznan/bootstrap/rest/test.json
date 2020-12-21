@@ -1,5 +1,7 @@
 {
-  "header": "głowa",
+  "header": {
+    "pageHeader": "Naglowek"
+  },
   "paragraph": "paragraf",
   "nav": {
     "links": [

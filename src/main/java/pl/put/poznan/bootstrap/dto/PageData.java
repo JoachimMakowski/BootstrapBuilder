@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class PageData {
-    String header;
+    Header header;
     String paragraph;
     Nav nav;
     Head head;
