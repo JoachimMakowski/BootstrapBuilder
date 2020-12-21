@@ -1,13 +1,10 @@
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\Nav.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\OGMeta.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\db\PagesRepo.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\Meta.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\logic\BootstrapBuilder.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\db\DataBase.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\TwitterMeta.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\app\BootstrapBuilderApplication.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\Link.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\PageData.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\Head.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\rest\BootstrapBuilderController.java
-C:\Users\Gerard Bosacki\Desktop\BootstrapBuilder-main\src\main\java\pl\put\poznan\bootstrap\dto\Body.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\PageData.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\db\DataBase.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Head.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Link.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\app\BootstrapBuilderApplication.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\rest\BootstrapBuilderController.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\db\PagesRepo.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Nav.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\logic\BootstrapBuilder.java
+D:\Dokumenty\SEMESTR5\IO\PROJEKT\BootstrapBuilder\src\main\java\pl\put\poznan\bootstrap\dto\Meta.java

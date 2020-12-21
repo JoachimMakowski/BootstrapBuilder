@@ -1,13 +1,2 @@
 pl\put\poznan\bootstrap\dto\TwitterMeta.class
-pl\put\poznan\bootstrap\dto\PageData.class
-pl\put\poznan\bootstrap\dto\Meta.class
-pl\put\poznan\bootstrap\dto\Nav.class
-pl\put\poznan\bootstrap\rest\BootstrapBuilderController.class
-pl\put\poznan\bootstrap\db\DataBase.class
-pl\put\poznan\bootstrap\app\BootstrapBuilderApplication.class
-pl\put\poznan\bootstrap\logic\BootstrapBuilder.class
-pl\put\poznan\bootstrap\dto\Body.class
-pl\put\poznan\bootstrap\dto\Link.class
-pl\put\poznan\bootstrap\db\PagesRepo.class
-pl\put\poznan\bootstrap\dto\Head.class
 pl\put\poznan\bootstrap\dto\OGMeta.class

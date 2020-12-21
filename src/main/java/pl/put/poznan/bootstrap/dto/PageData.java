@@ -8,5 +8,4 @@ public class PageData {
     String paragraph;
     Nav nav;
     Head head;
-    Body body;
 }
