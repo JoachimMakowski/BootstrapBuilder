@@ -5,7 +5,12 @@ import pl.put.poznan.bootstrap.dto.PageData;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
+/**
+ * Implements DataBase
+ *
+ * @author JoachimMakowski
+ * @version 1.0
+ */
 public class DataBase implements PagesRepo{
     private Map<String, PageData> db = new HashMap<>();
 
