@@ -35,6 +35,7 @@ public class Head {
 
         if(meta_tags == null && og_tags == null && twitter_tags == null && title == null) return "";
 
-        return String.format("<!DOCTYPE html>\n<html>\n<head>\n%s</head>", sb.toString());
+        return String.format("<!DOCTYPE html>\n<html>\n<head>\n%s\n" +
+                "  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">\n</head>\n", sb.toString());
     }
 }

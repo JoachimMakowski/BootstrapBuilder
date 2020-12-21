@@ -5,6 +5,7 @@ pl\put\poznan\bootstrap\dto\Nav.class
 pl\put\poznan\bootstrap\rest\BootstrapBuilderController.class
 pl\put\poznan\bootstrap\db\DataBase.class
 pl\put\poznan\bootstrap\app\BootstrapBuilderApplication.class
+pl\put\poznan\bootstrap\dto\Header.class
 pl\put\poznan\bootstrap\logic\BootstrapBuilder.class
 pl\put\poznan\bootstrap\dto\Body.class
 pl\put\poznan\bootstrap\dto\Link.class
