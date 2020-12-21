@@ -18,11 +18,11 @@ public class BootstrapBuilder {
     public String toHTML(){
 
         String head = pageData.getHead().toString();
-        String header = pageData.getHeader().toString();
+        //String header = pageData.getHeader().toString();
         String body = pageData.getBody().toString();
         StringBuilder html = new StringBuilder();
         html.append(head);
-        html.append(header);
+        //html.append(header);
         html.append(body);
 
         return html.toString();

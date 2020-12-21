@@ -23,6 +23,7 @@
     ]
   },
   "body": {
+    "header": "fixed",
     "navBar": "Nawigacja",
     "buttonOne": "Guzik",
     "pageText": "bottom text"

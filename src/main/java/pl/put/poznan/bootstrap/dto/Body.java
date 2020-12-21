@@ -10,15 +10,20 @@ public class Body {
     String navBar;
     String buttonOne;
     String pageText;
+    String header;
 
 
     public String toString() {
 
         var sb = new StringBuilder();
 
+        if(header != null){
+            sb.append(String.format(
+                    "  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark %s-top\">\n", header));
+        }
+
         if (navBar != null){
             sb.append(String.format(
-                    "  <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark static-top\">\n" +
                     "    <div class=\"container\">\n" +
                     "      <a class=\"navbar-brand\" href=\"#\">%s</a>\n" +
                     "      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n" +
