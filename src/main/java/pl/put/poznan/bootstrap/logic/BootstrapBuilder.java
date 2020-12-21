@@ -20,9 +20,8 @@ public class BootstrapBuilder {
         String head = pageData.getHead().toString();
         String body = pageData.getBody().toString();
         StringBuilder html = new StringBuilder();
-        html.append(head.toString());
-        html.append(body.toString());
-
+        html.append(head);
+        html.append(body);
 
         return html.toString();
     }
