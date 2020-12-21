@@ -26,6 +26,7 @@
     "header": "fixed",
     "navBar": "Nawigacja",
     "buttonOne": "Guzik",
-    "pageText": "bottom text"
+    "pageText": "first text,next text",
+    "footer": "kochamio"
   }
 }

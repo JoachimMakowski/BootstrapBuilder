@@ -11,6 +11,7 @@ public class Body {
     String buttonOne;
     String pageText;
     String header;
+    String footer;
 
 
     public String toString() {
@@ -57,7 +58,16 @@ public class Body {
                     "  </div>\n", pageText));
         }
 
-        if(navBar == null && buttonOne == null && pageText == null) return "";
+        if(footer != null) {
+            sb.append(String.format(
+                       "  <footer class=\"footer\">\n" +
+                       "    <div class=\"container\">\n" +
+                       "      <span class=\"text-muted\">%s</span>\n" +
+                       "    </div>\n" +
+                       "  </footer>\n", footer));
+        }
+
+        if(navBar == null && buttonOne == null && pageText == null && footer == null && header == null) return "";
 
         return String.format("\n<body>\n%s</body>\n\n</html>", sb.toString());
     }
