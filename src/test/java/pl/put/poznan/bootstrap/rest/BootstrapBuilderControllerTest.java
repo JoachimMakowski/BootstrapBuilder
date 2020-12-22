@@ -1,25 +1,21 @@
 package pl.put.poznan.bootstrap.rest;
 
 import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+
 class BootstrapBuilderControllerTest {
 
     @Test
     void shootMapInputToPageData() {
         BootstrapBuilderController bootstrapBuilderController = new BootstrapBuilderController();
-
-        String json = "{\n" +
-                "  \"header\": \"głowa\",\n" +
-                "  \"paragraph\": \"paragraf\",\n" +
-                "  \"nav\": {\n" +
-                "    \"links\": [\n" +
-                "      {\"name\": \"nazwa\", \"url\": \"url\"},\n" +
-                "      {\"name\": \"nazwa2\", \"url\": \"url\"}\n" +
-                "    ]\n" +
-                "  }\n" +
-                "  \"head\": {\n" +
-                "    \"title\": \"tytuł\"\n" +
-                "  }\n" +
-                "}";
-        bootstrapBuilderController.post(json);
+        try(InputStream inputStream = this.getClass().getResourceAsStream("test.json")){
+            String json = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
+            System.out.println(json);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

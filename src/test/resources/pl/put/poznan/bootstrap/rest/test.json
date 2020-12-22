@@ -1,0 +1,28 @@
+{
+  "header": "głowa",
+  "paragraph": "paragraf",
+  "nav": {
+    "links": [
+      {"name": "nazwa", "url": "url"},
+      {"name": "nazwa2", "url": "url"}
+    ]
+  },
+  "head": {
+    "title":"tytuł",
+    "meta_tags": [
+      {"charset": "utf-8"},
+      {"name": "viewport", "content": "width=device-width, initial-scale=1, shrink-to-fit=no"}
+    ],
+    "og_tags": [
+      {"property": "og:title", "content": "Open Graph title"}
+    ],
+    "twitter_tags": [
+      {"name": "twitter:title", "content": "Twitter title"}
+    ]
+  },
+  "body": {
+    "navBar": "Nawigacja",
+    "buttonOne": "Guzik",
+    "pageText": "bottom text"
+  }
+}
