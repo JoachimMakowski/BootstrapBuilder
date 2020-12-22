@@ -2,8 +2,21 @@ package pl.put.poznan.bootstrap.dto;
 
 import lombok.Data;
 
+/**
+ * OpenGraph tag class
+ *
+ * @author Bogumiła Walkowiak
+ * @version 1.0
+ */
+
 @Data
 public class OGMeta {
+
+    /**
+     * Takes property and content of a tag to create a web page fragment
+     *
+     * @return Single OpenGraph tag for the list
+     */
 
     String content;
     String property;

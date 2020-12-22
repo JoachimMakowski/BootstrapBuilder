@@ -1,4 +1,5 @@
 ## BootstrapBuilder
+## version 1.12 (22-12-2020)
 
 ![Build status](https://travis-ci.com/JoachimMakowski/BootstrapBuilder.svg?branch=main)
 

@@ -5,9 +5,19 @@ import pl.put.poznan.bootstrap.dto.PageData;
 import java.sql.SQLOutput;
 
 /**
- * This is just an example to show that the logic should be outside the REST service.
+ * Class creating ready-to-paste template
+ *
+ * @author Bogumiła Walkowiak
+ * @version 1.0
  */
 public class BootstrapBuilder {
+
+    /**
+     * Combining strings to one
+     *
+     * @params pageData (certain attributes)
+     * @return BootstrapBuilder html template as a string
+     */
 
     private final PageData pageData;
 

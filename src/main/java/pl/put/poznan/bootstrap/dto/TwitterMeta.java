@@ -2,8 +2,21 @@ package pl.put.poznan.bootstrap.dto;
 
 import lombok.Data;
 
+/**
+ * Twitter tag class
+ *
+ * @author Bogumiła Walkowiak
+ * @version 1.0
+ */
+
 @Data
 public class TwitterMeta {
+
+    /**
+     * Takes name and content of a tag to create a web page fragment
+     *
+     * @return Single Twitter tag for the list
+     */
 
     String content;
     String name;
