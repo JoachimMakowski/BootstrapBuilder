@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.put.poznan.bootstrap.rest.BootstrapBuilderControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.415 s - in pl.put.poznan.bootstrap.rest.BootstrapBuilderControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.98 s - in pl.put.poznan.bootstrap.rest.BootstrapBuilderControllerTest
