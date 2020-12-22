@@ -1,5 +1,7 @@
 {
-  "header": "głowa",
+  "header": {
+    "pageHeader": "Naglowek"
+  },
   "paragraph": "paragraf",
   "nav": {
     "links": [
@@ -21,8 +23,10 @@
     ]
   },
   "body": {
-    "navBar": "Nawigacja",
-    "buttonOne": "Guzik",
-    "pageText": "bottom text"
+    "header": "fixed",
+    "navBar": "Header: page topic",
+    "buttonOne": "Link1",
+    "pageText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac risus a diam interdum efficitur. Suspendisse vel sodales tellus, vel condimentum nisl. Sed a vehicula ante. Cras facilisis eros ac ligula gravida, a porttitor risus accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ultrices ac eros in sollicitudin. Proin ligula nibh, semper quis diam ac, mattis imperdiet ipsum. Aliquam a convallis nibh, non finibus nunc. Integer sit amet lacus eget arcu eleifend semper at eget nunc. Duis tincidunt massa eget tortor consectetur, in posuere justo semper. Vivamus lacinia, nisl vel vestibulum semper, orci turpis sodales magna, a ornare dui arcu id erat. Sed vel vestibulum ex. Aliquam justo nisl, pretium nec pellentesque non, vehicula in sem.\n\nNunc vitae massa vitae justo iaculis mollis. Sed odio lorem, scelerisque non rhoncus sed, egestas quis sapien. Fusce fringilla nunc urna, nec varius ex fermentum id. Suspendisse diam purus, tristique sed ex et, ornare suscipit magna. Pellentesque ac vehicula neque. Nulla accumsan, ipsum nec semper lacinia, ligula nunc vehicula lorem, sit amet posuere ligula odio in ante. Vivamus at sollicitudin magna. Morbi volutpat purus in gravida ultrices.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna eros, euismod ut risus nec, laoreet semper enim. Vestibulum dolor risus, cursus ac orci sit amet, volutpat pulvinar velit. Phasellus at accumsan dolor, sit amet hendrerit libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis convallis turpis sit amet leo laoreet tempus. Etiam viverra, quam eu rutrum venenatis, sapien libero posuere ipsum, nec luctus enim turpis non metus. Mauris velit nibh, lacinia at magna id, sollicitudin cursus ipsum. Nunc gravida, odio eget ullamcorper imperdiet, nisl est consequat turpis, eget tincidunt ex ex ut nulla. Morbi vitae lobortis sem, vitae viverra lacus. Sed dapibus pellentesque ligula sit amet bibendum. Mauris posuere egestas ipsum, in finibus purus semper vitae. Duis porttitor ac risus ut dictum. Ut rhoncus nulla vel neque bibendum, eget consectetur augue laoreet.\n\nMauris iaculis gravida orci eu pretium. Vet volutpat est. Pellentesque dapibus mauris massa, nec elementum mauris aliquet at. Sed sed tellus at nunc sagittis auctor non eget velit. Sed in luctus erat. Donec eu massa dui. Cras a mollis arcu. In auctor massa nunc. Aliquam erat volutpat. Etiam venenatis tempor maximus. Vivamus ut vehicula tortor. Mauris ac lorem sit amet justo facilisis tristique ac ut diam. Praesent ac faucibus dui, et interdum est.",
+    "footer": "Footer: 22-12-2020"
   }
 }
