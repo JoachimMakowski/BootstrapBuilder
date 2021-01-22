@@ -30,7 +30,7 @@ public class DataBase implements PagesRepo{
     public boolean deletePageData(String uuid) {
         if (db.containsKey(uuid)) {
             PageData pageData = db.remove(uuid);
-            return true;//change to pageData
+            return true;
         }else return false;
     }
 }

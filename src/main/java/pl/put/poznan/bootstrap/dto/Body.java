@@ -2,7 +2,6 @@ package pl.put.poznan.bootstrap.dto;
 
 
 import lombok.Data;
-import java.util.List;
 
 /**
  * Class created to make HTML body template
@@ -87,6 +86,6 @@ public class Body {
 
         if(navBar == null && buttonOne == null && pageText == null && footer == null && header == null) return "";
 
-        return String.format("\n<body>\n%s</body>\n\n</html>", sb.toString());
+        return String.format("\n<body>\n%s</body>\n", sb.toString());
     }
 }

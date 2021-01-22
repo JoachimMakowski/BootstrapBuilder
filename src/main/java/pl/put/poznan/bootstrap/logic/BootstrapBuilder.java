@@ -2,8 +2,6 @@ package pl.put.poznan.bootstrap.logic;
 
 import pl.put.poznan.bootstrap.dto.PageData;
 
-import java.sql.SQLOutput;
-
 /**
  * Class creating ready-to-paste template
  *
@@ -27,12 +25,8 @@ public class BootstrapBuilder {
 
     public String toHTML(){
 
-        String head = pageData.getHead().toString();
-        String body = pageData.getBody().toString();
-        StringBuilder html = new StringBuilder();
-        html.append(head);
-        html.append(body);
+        String html = pageData.toString();
 
-        return html.toString();
+        return html;
     }
 }
