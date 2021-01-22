@@ -80,6 +80,5 @@ class HeadTest {
                 "  <meta name=\"twitter:title\" content=\"Twitter title\">\n\n" +
                 "  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">\n" +
                 "</head>\n",head.toString());
-        verify(mockedOGMeta,times(3));
     }
 }
