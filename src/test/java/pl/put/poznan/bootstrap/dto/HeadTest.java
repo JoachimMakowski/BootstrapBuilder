@@ -37,7 +37,6 @@ class HeadTest {
                 "  <meta property=\"og:title\" content=\"Open Graph title\">\n\n" +
                 "  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">\n" +
                 "</head>\n",head.toString());
-        verify(mockedOGMeta,times(1));
     }
 
     @Test

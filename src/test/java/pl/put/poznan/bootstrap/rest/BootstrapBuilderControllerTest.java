@@ -30,7 +30,6 @@ class BootstrapBuilderControllerTest {
             PageData pageData = objectMapper.readValue(json, PageData.class);
             assertEquals(pageData.getBody().getNavBar(),"Header: page topic");
             assertEquals(pageData.getHead().getTitle(),"tytuł");
-            System.out.println(pageData.toString());
         } catch(Exception e){
             e.printStackTrace();
         }
