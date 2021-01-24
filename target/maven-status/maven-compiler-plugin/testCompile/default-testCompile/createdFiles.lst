@@ -1,0 +1,4 @@
+pl\put\poznan\bootstrap\dto\MetaTest.class
+pl\put\poznan\bootstrap\db\DataBaseTest.class
+pl\put\poznan\bootstrap\dto\HeadTest.class
+pl\put\poznan\bootstrap\rest\BootstrapBuilderControllerTest.class
